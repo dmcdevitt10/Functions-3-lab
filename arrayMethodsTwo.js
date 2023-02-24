@@ -91,13 +91,13 @@ let fruits = [
 */
 
 // CODE HERE
-fruits.forEach((e, i) => {
+fruits.forEach((e, index) => {
   if(e.color === "red"){
-    console.log(`The fruit with index ${i} is an apple`)
+    console.log(`The fruit with index ${index} is an apple`)
   }else if(e.color === 'orange'){
-    console.log(`The fruit with index ${i} is an orange`)
+    console.log(`The fruit with index ${index} is an orange`)
   }else{
-    console.log(`The fruit with index ${i} is neither apple or orange`)
+    console.log(`The fruit with index ${index} is neither apple or orange`)
   }
 })
 
